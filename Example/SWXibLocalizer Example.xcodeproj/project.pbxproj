@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035BDCD619250A21005D0DED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BDCD519250A21005D0DED /* Cocoa.framework */; };
+		035BDCE219250A21005D0DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDCE119250A21005D0DED /* main.m */; };
+		035BDCE919250A21005D0DED /* TBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDCE819250A21005D0DED /* TBMAppDelegate.m */; };
+		035BDCEE19250A21005D0DED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035BDCED19250A21005D0DED /* Images.xcassets */; };
+		035BDCF519250A21005D0DED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BDCF419250A21005D0DED /* XCTest.framework */; };
+		035BDCF619250A21005D0DED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035BDCD519250A21005D0DED /* Cocoa.framework */; };
+		035BDCFE19250A21005D0DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035BDCFC19250A21005D0DED /* InfoPlist.strings */; };
+		035BDD0019250A21005D0DED /* SWXibLocalizer_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDCFF19250A21005D0DED /* SWXibLocalizer_ExampleTests.m */; };
+		035BDD0A19250A47005D0DED /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD0919250A47005D0DED /* Podfile */; };
+		035BDD1219250D24005D0DED /* TBMXibLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDD1119250D24005D0DED /* TBMXibLocalizer.m */; };
+		035BDD1519250D4C005D0DED /* TBMXibLocalizerCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDD1419250D4C005D0DED /* TBMXibLocalizerCategories.m */; };
+		035BDD1C192511CB005D0DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD1B192511CB005D0DED /* InfoPlist.strings */; };
+		035BDD1E192511D5005D0DED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD1D192511D5005D0DED /* MainMenu.xib */; };
+		035BDD20192511DE005D0DED /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD1F192511DE005D0DED /* Credits.rtf */; };
+		035BDD22192511F1005D0DED /* MainMenuLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 035BDD21192511F1005D0DED /* MainMenuLocalizer.m */; };
+		035BDD2719251323005D0DED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD2319251323005D0DED /* LICENSE */; };
+		035BDD2819251323005D0DED /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD2419251323005D0DED /* README.markdown */; };
+		035BDD2A19251323005D0DED /* TBMXibLocalizer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 035BDD2619251323005D0DED /* TBMXibLocalizer.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035BDCF719250A21005D0DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035BDCCA19250A21005D0DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035BDCD119250A21005D0DED;
+			remoteInfo = "SWXibLocalizer Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035BDCD219250A21005D0DED /* SWXibLocalizer Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWXibLocalizer Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035BDCD519250A21005D0DED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		035BDCD819250A21005D0DED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		035BDCD919250A21005D0DED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		035BDCDA19250A21005D0DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		035BDCDD19250A21005D0DED /* SWXibLocalizer Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWXibLocalizer Example-Info.plist"; sourceTree = "<group>"; };
+		035BDCE119250A21005D0DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		035BDCE319250A21005D0DED /* SWXibLocalizer Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWXibLocalizer Example-Prefix.pch"; sourceTree = "<group>"; };
+		035BDCE719250A21005D0DED /* TBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBMAppDelegate.h; sourceTree = "<group>"; };
+		035BDCE819250A21005D0DED /* TBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBMAppDelegate.m; sourceTree = "<group>"; };
+		035BDCED19250A21005D0DED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		035BDCF319250A21005D0DED /* SWXibLocalizer ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWXibLocalizer ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035BDCF419250A21005D0DED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		035BDCFB19250A21005D0DED /* SWXibLocalizer ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SWXibLocalizer ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		035BDCFD19250A21005D0DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		035BDCFF19250A21005D0DED /* SWXibLocalizer_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWXibLocalizer_ExampleTests.m; sourceTree = "<group>"; };
+		035BDD0919250A47005D0DED /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		035BDD0F19250D0C005D0DED /* TBMLocalizableControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBMLocalizableControl.h; path = ../Classes/TBMLocalizableControl.h; sourceTree = "<group>"; };
+		035BDD1019250D24005D0DED /* TBMXibLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBMXibLocalizer.h; path = ../Classes/TBMXibLocalizer.h; sourceTree = "<group>"; };
+		035BDD1119250D24005D0DED /* TBMXibLocalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMXibLocalizer.m; path = ../Classes/TBMXibLocalizer.m; sourceTree = "<group>"; };
+		035BDD1419250D4C005D0DED /* TBMXibLocalizerCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBMXibLocalizerCategories.m; path = ../Classes/TBMXibLocalizerCategories.m; sourceTree = "<group>"; };
+		035BDD1B192511CB005D0DED /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		035BDD1D192511D5005D0DED /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		035BDD1F192511DE005D0DED /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		035BDD21192511F1005D0DED /* MainMenuLocalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLocalizer.m; sourceTree = "<group>"; };
+		035BDD2319251323005D0DED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		035BDD2419251323005D0DED /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
+		035BDD2619251323005D0DED /* TBMXibLocalizer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TBMXibLocalizer.podspec; path = ../TBMXibLocalizer.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035BDCCF19250A21005D0DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDCD619250A21005D0DED /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035BDCF019250A21005D0DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDCF619250A21005D0DED /* Cocoa.framework in Frameworks */,
+				035BDCF519250A21005D0DED /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035BDCC919250A21005D0DED = {
+			isa = PBXGroup;
+			children = (
+				035BDD2319251323005D0DED /* LICENSE */,
+				035BDD2419251323005D0DED /* README.markdown */,
+				035BDD2619251323005D0DED /* TBMXibLocalizer.podspec */,
+				035BDD0B19250A73005D0DED /* Classes */,
+				035BDD0919250A47005D0DED /* Podfile */,
+				035BDCDB19250A21005D0DED /* SWXibLocalizer Example */,
+				035BDCF919250A21005D0DED /* SWXibLocalizer ExampleTests */,
+				035BDCD419250A21005D0DED /* Frameworks */,
+				035BDCD319250A21005D0DED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035BDCD319250A21005D0DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCD219250A21005D0DED /* SWXibLocalizer Example.app */,
+				035BDCF319250A21005D0DED /* SWXibLocalizer ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035BDCD419250A21005D0DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCD519250A21005D0DED /* Cocoa.framework */,
+				035BDCF419250A21005D0DED /* XCTest.framework */,
+				035BDCD719250A21005D0DED /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		035BDCD719250A21005D0DED /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCD819250A21005D0DED /* AppKit.framework */,
+				035BDCD919250A21005D0DED /* CoreData.framework */,
+				035BDCDA19250A21005D0DED /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		035BDCDB19250A21005D0DED /* SWXibLocalizer Example */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCE719250A21005D0DED /* TBMAppDelegate.h */,
+				035BDCE819250A21005D0DED /* TBMAppDelegate.m */,
+				035BDD1D192511D5005D0DED /* MainMenu.xib */,
+				035BDD21192511F1005D0DED /* MainMenuLocalizer.m */,
+				035BDCED19250A21005D0DED /* Images.xcassets */,
+				035BDCDC19250A21005D0DED /* Supporting Files */,
+			);
+			path = "SWXibLocalizer Example";
+			sourceTree = "<group>";
+		};
+		035BDCDC19250A21005D0DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCDD19250A21005D0DED /* SWXibLocalizer Example-Info.plist */,
+				035BDD1B192511CB005D0DED /* InfoPlist.strings */,
+				035BDCE119250A21005D0DED /* main.m */,
+				035BDCE319250A21005D0DED /* SWXibLocalizer Example-Prefix.pch */,
+				035BDD1F192511DE005D0DED /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035BDCF919250A21005D0DED /* SWXibLocalizer ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCFF19250A21005D0DED /* SWXibLocalizer_ExampleTests.m */,
+				035BDCFA19250A21005D0DED /* Supporting Files */,
+			);
+			path = "SWXibLocalizer ExampleTests";
+			sourceTree = "<group>";
+		};
+		035BDCFA19250A21005D0DED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035BDCFB19250A21005D0DED /* SWXibLocalizer ExampleTests-Info.plist */,
+				035BDCFC19250A21005D0DED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035BDD0B19250A73005D0DED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				035BDD1019250D24005D0DED /* TBMXibLocalizer.h */,
+				035BDD1119250D24005D0DED /* TBMXibLocalizer.m */,
+				035BDD0F19250D0C005D0DED /* TBMLocalizableControl.h */,
+				035BDD1419250D4C005D0DED /* TBMXibLocalizerCategories.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035BDCD119250A21005D0DED /* SWXibLocalizer Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035BDD0319250A21005D0DED /* Build configuration list for PBXNativeTarget "SWXibLocalizer Example" */;
+			buildPhases = (
+				035BDCCE19250A21005D0DED /* Sources */,
+				035BDCCF19250A21005D0DED /* Frameworks */,
+				035BDCD019250A21005D0DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWXibLocalizer Example";
+			productName = "SWXibLocalizer Example";
+			productReference = 035BDCD219250A21005D0DED /* SWXibLocalizer Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035BDCF219250A21005D0DED /* SWXibLocalizer ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035BDD0619250A21005D0DED /* Build configuration list for PBXNativeTarget "SWXibLocalizer ExampleTests" */;
+			buildPhases = (
+				035BDCEF19250A21005D0DED /* Sources */,
+				035BDCF019250A21005D0DED /* Frameworks */,
+				035BDCF119250A21005D0DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035BDCF819250A21005D0DED /* PBXTargetDependency */,
+			);
+			name = "SWXibLocalizer ExampleTests";
+			productName = "SWXibLocalizer ExampleTests";
+			productReference = 035BDCF319250A21005D0DED /* SWXibLocalizer ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035BDCCA19250A21005D0DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TBM;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					035BDCF219250A21005D0DED = {
+						TestTargetID = 035BDCD119250A21005D0DED;
+					};
+				};
+			};
+			buildConfigurationList = 035BDCCD19250A21005D0DED /* Build configuration list for PBXProject "SWXibLocalizer Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035BDCC919250A21005D0DED;
+			productRefGroup = 035BDCD319250A21005D0DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035BDCD119250A21005D0DED /* SWXibLocalizer Example */,
+				035BDCF219250A21005D0DED /* SWXibLocalizer ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035BDCD019250A21005D0DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDD2719251323005D0DED /* LICENSE in Resources */,
+				035BDD0A19250A47005D0DED /* Podfile in Resources */,
+				035BDD20192511DE005D0DED /* Credits.rtf in Resources */,
+				035BDD1C192511CB005D0DED /* InfoPlist.strings in Resources */,
+				035BDD2819251323005D0DED /* README.markdown in Resources */,
+				035BDCEE19250A21005D0DED /* Images.xcassets in Resources */,
+				035BDD1E192511D5005D0DED /* MainMenu.xib in Resources */,
+				035BDD2A19251323005D0DED /* TBMXibLocalizer.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035BDCF119250A21005D0DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDCFE19250A21005D0DED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035BDCCE19250A21005D0DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDCE919250A21005D0DED /* TBMAppDelegate.m in Sources */,
+				035BDCE219250A21005D0DED /* main.m in Sources */,
+				035BDD22192511F1005D0DED /* MainMenuLocalizer.m in Sources */,
+				035BDD1219250D24005D0DED /* TBMXibLocalizer.m in Sources */,
+				035BDD1519250D4C005D0DED /* TBMXibLocalizerCategories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035BDCEF19250A21005D0DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035BDD0019250A21005D0DED /* SWXibLocalizer_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035BDCF819250A21005D0DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035BDCD119250A21005D0DED /* SWXibLocalizer Example */;
+			targetProxy = 035BDCF719250A21005D0DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035BDCFC19250A21005D0DED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035BDCFD19250A21005D0DED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035BDD0119250A21005D0DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		035BDD0219250A21005D0DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		035BDD0419250A21005D0DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWXibLocalizer Example/SWXibLocalizer Example-Prefix.pch";
+				INFOPLIST_FILE = "SWXibLocalizer Example/SWXibLocalizer Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		035BDD0519250A21005D0DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWXibLocalizer Example/SWXibLocalizer Example-Prefix.pch";
+				INFOPLIST_FILE = "SWXibLocalizer Example/SWXibLocalizer Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		035BDD0719250A21005D0DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWXibLocalizer Example.app/Contents/MacOS/SWXibLocalizer Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWXibLocalizer Example/SWXibLocalizer Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SWXibLocalizer ExampleTests/SWXibLocalizer ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		035BDD0819250A21005D0DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SWXibLocalizer Example.app/Contents/MacOS/SWXibLocalizer Example";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SWXibLocalizer Example/SWXibLocalizer Example-Prefix.pch";
+				INFOPLIST_FILE = "SWXibLocalizer ExampleTests/SWXibLocalizer ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035BDCCD19250A21005D0DED /* Build configuration list for PBXProject "SWXibLocalizer Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035BDD0119250A21005D0DED /* Debug */,
+				035BDD0219250A21005D0DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035BDD0319250A21005D0DED /* Build configuration list for PBXNativeTarget "SWXibLocalizer Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035BDD0419250A21005D0DED /* Debug */,
+				035BDD0519250A21005D0DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035BDD0619250A21005D0DED /* Build configuration list for PBXNativeTarget "SWXibLocalizer ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035BDD0719250A21005D0DED /* Debug */,
+				035BDD0819250A21005D0DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035BDCCA19250A21005D0DED /* Project object */;
+}

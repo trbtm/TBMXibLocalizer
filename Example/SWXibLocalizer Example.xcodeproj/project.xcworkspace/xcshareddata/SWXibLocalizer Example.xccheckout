@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20806BF7-7B44-421F-A30B-17B893AE7D14</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SWXibLocalizer Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6AEAED6F-924C-490A-BDAB-4D7784170B69</key>
+		<string>https://github.com/trbtm/TBMXibLocalizer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/SWXibLocalizer Example/SWXibLocalizer Example.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6AEAED6F-924C-490A-BDAB-4D7784170B69</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/trbtm/TBMXibLocalizer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6AEAED6F-924C-490A-BDAB-4D7784170B69</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6AEAED6F-924C-490A-BDAB-4D7784170B69</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TBMXibLocalizer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
