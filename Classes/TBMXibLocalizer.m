@@ -12,6 +12,9 @@
 
 #import <objc/objc-class.h>
 
+NSString *const TBMXbLocalizerWillStart = @"TBMXbLocalizerWillStart";
+NSString *const TBMXbLocalizerDidFinish = @"TBMXbLocalizerDidFinish";
+
 @implementation TBMXibLocalizer
 
 - (void)localizeControl:(SEL)controlName string:(NSString *)string {
@@ -50,6 +53,8 @@
 
 - (void)awakeFromNib {
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:TBMXbLocalizerWillStart object:self];
+    
     unsigned int methodCount;
     Method *methodList = class_copyMethodList(self.class, &methodCount);
     
@@ -69,6 +74,8 @@
             
         }
     }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:TBMXbLocalizerDidFinish object:self];
     
     //Nullify the strong reference
     for (unsigned int i = 0; i < methodCount; i++) {

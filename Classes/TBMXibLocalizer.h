@@ -18,6 +18,9 @@
     [self localizeControl:@selector(controlName) string:localizedString]; \
 }
 
+FOUNDATION_EXPORT NSString *const TBMXbLocalizerWillStart;
+FOUNDATION_EXPORT NSString *const TBMXbLocalizerDidFinish;
+
 @interface TBMXibLocalizer : NSObject
 
 - (void)localizeControl:(SEL)controlName string:(NSString *)string;
