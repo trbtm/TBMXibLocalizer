@@ -6,11 +6,11 @@
 //
 //
 
-#import "TBMXibLocalizer.h"
+#import "MainMenuLocalizer.h"
 
-@interface MainMenuLocalizer : TBMXibLocalizer
+@interface MainMenuLocalizer ()
 
-TBMXibDefineControl(aButton)
+@property (strong) IBOutlet id aButton;
 
 @end
 

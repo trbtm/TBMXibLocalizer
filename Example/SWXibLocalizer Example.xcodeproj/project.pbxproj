@@ -66,6 +66,7 @@
 		035BDD2319251323005D0DED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		035BDD2419251323005D0DED /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
 		035BDD2619251323005D0DED /* TBMXibLocalizer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TBMXibLocalizer.podspec; path = ../TBMXibLocalizer.podspec; sourceTree = "<group>"; };
+		0361580519F1ED4400121353 /* MainMenuLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLocalizer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 		035BDCDB19250A21005D0DED /* SWXibLocalizer Example */ = {
 			isa = PBXGroup;
 			children = (
+				0361580619F1EDCC00121353 /* Obsolete header files */,
 				035BDCE719250A21005D0DED /* TBMAppDelegate.h */,
 				035BDCE819250A21005D0DED /* TBMAppDelegate.m */,
 				035BDD1D192511D5005D0DED /* MainMenu.xib */,
@@ -185,6 +187,14 @@
 				035BDD1419250D4C005D0DED /* TBMXibLocalizerCategories.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0361580619F1EDCC00121353 /* Obsolete header files */ = {
+			isa = PBXGroup;
+			children = (
+				0361580519F1ED4400121353 /* MainMenuLocalizer.h */,
+			);
+			name = "Obsolete header files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -10,29 +10,29 @@
 	<string>SWXibLocalizer Example</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>380F74F9-8B07-4C6F-B1F3-D60688447528</key>
+		<key>B2C4CA8703927E9F62D592F35F08B1FB90F05BF0</key>
 		<string>https://github.com/trbtm/TBMXibLocalizer</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Example/SWXibLocalizer Example.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>380F74F9-8B07-4C6F-B1F3-D60688447528</key>
+		<key>B2C4CA8703927E9F62D592F35F08B1FB90F05BF0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/trbtm/TBMXibLocalizer</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>380F74F9-8B07-4C6F-B1F3-D60688447528</string>
+	<string>B2C4CA8703927E9F62D592F35F08B1FB90F05BF0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>380F74F9-8B07-4C6F-B1F3-D60688447528</string>
+			<string>B2C4CA8703927E9F62D592F35F08B1FB90F05BF0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TBMXibLocalizer</string>
 		</dict>
