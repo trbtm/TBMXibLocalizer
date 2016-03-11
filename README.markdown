@@ -3,7 +3,7 @@
 TBMXibLocalizer helps you to localise your xib files and is compatible with genstrings.
 
 ## Adding to your Project
-If your are using [Cocoapods](http://cocoapods.org/) simply add the following to your Podfile
+If your are using [CocoaPods](http://cocoapods.org/) simply add the following to your Podfile
 
 ``` ruby
 pod 'TBMXibLocalizer'
